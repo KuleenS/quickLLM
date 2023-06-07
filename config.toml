@@ -1,0 +1,8 @@
+prompts_file = "/home/ksasse/code/quickLLM/dredze_experiment.csv"
+output ="/scratch4/mdredze1/ksasse/test"
+[model]
+name = "huggyllama/llama-13b"
+batch_size = 1
+[model.generation_args]
+    max_new_tokens = 20
+    temperature = 0

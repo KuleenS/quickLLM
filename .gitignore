@@ -1,0 +1,7 @@
+/.pytest_cache
+/dredze_experiment.csv
+/quickllm.err.log
+/quickllm.out.log
+/relationship_model_zoo.err.log
+/relationship_model_zoo.out.log
+/run_model_test.job
