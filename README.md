@@ -44,3 +44,8 @@ I recommend 2 cpus per gpu and enough RAM and VRAM to load the model weights
 ```bash
 sbatch run_model.job
 ```
+
+## TODOs
+This is a hacked together script and only accounts for a subset of huggingface hub models
+
+Please be wary that all huggingface models might not be represented here and their wacky intricacies in their tokenizer padding, needing to run foreign code, needing to remove token_type_ids 
